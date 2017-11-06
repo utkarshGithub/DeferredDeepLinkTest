@@ -1,0 +1,23 @@
+FATAL EXCEPTION: main
+                                                           Process: com.o1.dev.d, PID: 5464
+                                                           java.lang.NullPointerException: Attempt to invoke virtual method 'int android.view.View.getVisibility()' on a null object reference
+                                                               at android.widget.FrameLayout.layoutChildren(FrameLayout.java:288)
+                                                               at android.widget.FrameLayout.onLayout(FrameLayout.java:273)
+                                                               at com.android.internal.policy.PhoneWindow$DecorView.onLayout(PhoneWindow.java:2678)
+                                                               at android.view.View.layout(View.java:16651)
+                                                               at android.view.ViewGroup.layout(ViewGroup.java:5440)
+                                                               at android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2183)
+                                                               at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1943)
+                                                               at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1119)
+                                                               at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6060)
+                                                               at android.view.Choreographer$CallbackRecord.run(Choreographer.java:858)
+                                                               at android.view.Choreographer.doCallbacks(Choreographer.java:670)
+                                                               at android.view.Choreographer.doFrame(Choreographer.java:606)
+                                                               at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:844)
+                                                               at android.os.Handler.handleCallback(Handler.java:746)
+                                                               at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                               at android.os.Looper.loop(Looper.java:148)
+                                                               at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                               at java.lang.reflect.Method.invoke(Native Method)
+                                                               at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                               at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
