@@ -7,7 +7,7 @@ android {
         applicationId "com.crook.flash.deferreddeeplinktest"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 4
+        versionCode 5
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -28,5 +28,8 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
     compile 'cat.ereza:customactivityoncrash:2.1.0'
+    // required
+    compile 'io.branch.sdk.android:library:2.+'
+
     compile 'com.facebook.android:facebook-android-sdk:4.10.1'
 }
